@@ -1,0 +1,10 @@
+-- Example SERVER resource; replace with your inventory's actual functions.
+-- Start bebecito_road_flares first; set Config.Inventory.Provider='custom'.
+-- Never trust a client-reported count and do not consume in both resources.
+-- exports.bebecito_road_flares:RegisterInventoryAdapter({
+--   count = function(source, item) return YourInventory.Count(source, item) end,
+--   remove = function(source, item, count) return YourInventory.Remove(source, item, count) == true end
+-- })
+-- The item's client use callback calls:
+-- exports.bebecito_road_flares:StartDeploymentMode()
+-- Both adapter functions must complete synchronously, without Wait or callbacks.

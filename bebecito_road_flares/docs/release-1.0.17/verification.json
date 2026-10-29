@@ -1,0 +1,200 @@
+{
+  "version": "1.0.17",
+  "date": "2026-10-29T11:09:53-07:00",
+  "scope": "Actual Lua with mocked native/network/inventory APIs, plus exported asset checks. Not in-game visual/performance certification.",
+  "suites": [
+    {
+      "suite": "server",
+      "result": "PASS"
+    },
+    {
+      "suite": "client",
+      "result": "PASS"
+    },
+    {
+      "suite": "ground",
+      "result": "PASS"
+    },
+    {
+      "suite": "ground_physics",
+      "result": "PASS"
+    },
+    {
+      "suite": "bd_collision",
+      "result": "PASS"
+    },
+    {
+      "suite": "placing",
+      "result": "PASS"
+    },
+    {
+      "suite": "realism",
+      "result": "PASS"
+    },
+    {
+      "suite": "combustion",
+      "result": "PASS"
+    },
+    {
+      "suite": "native_draw",
+      "result": "PASS"
+    },
+    {
+      "suite": "smoke_light",
+      "result": "PASS"
+    },
+    {
+      "suite": "environment_boost",
+      "result": "PASS"
+    },
+    {
+      "suite": "traffic_lite",
+      "result": "PASS"
+    },
+    {
+      "suite": "native_routes",
+      "result": "PASS"
+    },
+    {
+      "suite": "snapshot_flow",
+      "result": "PASS"
+    },
+    {
+      "suite": "interaction_idle",
+      "result": "PASS"
+    },
+    {
+      "suite": "smoke_budget_work",
+      "result": "PASS"
+    },
+    {
+      "suite": "ground_effect_owner",
+      "result": "PASS"
+    },
+    {
+      "suite": "crowded_smoke",
+      "result": "PASS"
+    },
+    {
+      "suite": "thickness_distance",
+      "result": "PASS"
+    },
+    {
+      "suite": "render_work",
+      "result": "PASS"
+    },
+    {
+      "suite": "remote_held",
+      "result": "PASS"
+    },
+    {
+      "suite": "animation",
+      "result": "PASS"
+    },
+    {
+      "suite": "ignition_sync",
+      "result": "PASS"
+    },
+    {
+      "suite": "asset",
+      "result": "PASS"
+    },
+    {
+      "suite": "audio",
+      "result": "PASS"
+    },
+    {
+      "suite": "grip",
+      "result": "PASS"
+    },
+    {
+      "suite": "inventory_startup",
+      "result": "PASS"
+    },
+    {
+      "suite": "lightweight",
+      "result": "PASS"
+    },
+    {
+      "suite": "presentation",
+      "result": "PASS"
+    },
+    {
+      "suite": "pose",
+      "result": "PASS"
+    }
+  ],
+  "inputHashes": {
+    "CHANGELOG.md": "7624ff9e5938478f4fb6cfc5b742838d1aef13f410fb7d78066cee50f7c5a8d2",
+    "INSTALAR_ES.md": "37580f778dded627d1895a6ae9da274830b6f3528b42839e759044a89f83e5ac",
+    "INSTALL_EN.md": "2f82848d7a6159d9703afef0fd05f492f2cfdf356690a6d4bc3beb71eea69f6b",
+    "LICENSE": "1dc79d6e61d6cbe469d900bb9e87459558d25d0ec9585ca790e21752cc847e9a",
+    "README.md": "210ddf34577118735721aac83682ca058494c96d3d29734fdc1c01ba59445a65",
+    "bd_road_flare_assets/fxmanifest.lua": "c14218369a1a6fb473d8f05a1bb8a1c03f2cd5b521a221240458787e8b2cf350",
+    "bd_road_flare_assets/stream/bd_flare_textures.ytd": "c5377e178f778fe599ae51033774e1dfc41359bdc5ffce80ad256cd152944ea4",
+    "bd_road_flare_assets/stream/bd_road_flare.ydr": "f80de81dfe2be1f7fd0c7b64196da86f37d9eab125d655a7913d23b4fea4e3cb",
+    "bd_road_flare_assets/stream/bd_road_flare.ytyp": "f56e98e9efd7df3520a500941ca98d8494b15c0c00cb3992f66db426138d016f",
+    "bd_road_flare_assets/stream/bd_road_flare_cap.ydr": "6d90059323fe0524e3b3cca604442662e4f1fa3dc7968f7f5f2d86fd22c1d439",
+    "bd_road_flare_assets/stream/bd_road_flare_ground_0.ydr": "5190b51bd9b1e6dbbd4d620d869be3d783d87e5d471bbd3113b7655bcdd3918c",
+    "bd_road_flare_assets/stream/bd_road_flare_ground_1.ydr": "df85553eab1ef91b40d814fe018b770d52f3bf64ce27a8ddb27e0f4b4b9324a8",
+    "bd_road_flare_assets/stream/bd_road_flare_ground_2.ydr": "8f662b071610c9ea8976b14142b3102b7bfc96565a3acc4cf7251ae2fc3bf3ef",
+    "bd_road_flare_assets/stream/bd_road_flare_ground_3.ydr": "7986ccc2299fa47ab6a2361bf5b7b91810a7f694da3f17e66f4ca3ec36e43d43",
+    "bd_road_flare_assets/stream/bd_road_flare_lit.ydr": "182050b0a2acd9c92bf325a7f3e0f109d8ac93ca421b913ef5d0699037dcc859",
+    "bd_road_flare_assets/stream/bd_road_flare_lit_1.ydr": "82d4506ad7b563581aeebcb9fa4265863ce1c34f6bd7b0b54667a2ecdea14a7a",
+    "bd_road_flare_assets/stream/bd_road_flare_lit_2.ydr": "e933f13c7c08d479a91db82cd226c33270aa78844a58c01e3965f04f62328941",
+    "bd_road_flare_assets/stream/bd_road_flare_lit_3.ydr": "53a4266a6cba94b87a299a063467d574665cfa929a5c75ecb9bb7d079641c223",
+    "bd_road_flare_assets/stream/bd_road_flare_spent.ydr": "3e4fa34b2c488082c7761a67e4689fb4b841a0c0c58f85dc0187b2986077c534",
+    "bd_road_flare_assets/stream/bd_roadflare_ignition.ycd": "c1911bed45c271aeab8150e636ed7c885d8c87c8936373404951bf919f70f42c",
+    "bd_road_flare_assets/stream/bd_roadflare_pose.ycd": "fd4dee07d73553aebd3871ac58b31b4770a8fa003a16325b4c2914ff7ec1a649",
+    "bridges/inventory/README.md": "7662636b447444e8d626667326b53dad2e045be23fac7a3ff887a07367ed03b2",
+    "bridges/inventory/custom_adapter.lua": "c07efe2d040c0f111b680b2229b8ceae9027a3d9b87f60ad97404c252f8fb59d",
+    "bridges/inventory/esx_item.sql": "756abcee288dbf4c9b64fbcee736111b6277288775a28f2d5f98f417ef826984",
+    "bridges/inventory/ox_items.lua": "c518ecfc2675fa1d9df6c3e09e4f09a91aeba970c615fcb62ece1c3a947b6cc8",
+    "bridges/inventory/ox_shop.lua": "79e5dd1d220e8c008a00a1987865e723b011d9dcf7330d2836e1b3d93010107e",
+    "bridges/inventory/qb_item.lua": "2c96cf9bf46b25703b280d0fb7f98df7176d0ac9508b58c815396207f60c6e14",
+    "bridges/inventory/qb_shop.lua": "ed8eed7b197b621a1c3d1e87e7720da60371e4ffc9222a90f03106715efc3b9e",
+    "client/animations.lua": "c71f3e780145b08527627a7d637a0d8624f2b72c66f49e7d898bb24d380c7904",
+    "client/audio.lua": "0945f77cf3735aadba11c78bdd9e95793aac7813a41f54d20c5fa4689d33c4da",
+    "client/combustion.lua": "14b3ab94f01ad69343f720dffa5657891925f3c8634136de1a419df661d5b018",
+    "client/deployment.lua": "70ac902981c9c93b50d245a6301e4af41d8aa8cba834ff803169fb7f54ddea65",
+    "client/effects.lua": "8464f9d96cc6d1fdcc5019282c1087e1c980be864bc1948de921c11737d80f58",
+    "client/ground_physics.lua": "abac14e8d0340b17a9cc8ae8bdedb59b864b799a07956b6eb212361abe9685b3",
+    "client/ground_visuals.lua": "28a4f4aed75b81bd8e63b4bcb5176c6b6b75f3a918183fb47da42e0d68b51d22",
+    "client/interaction.lua": "64d5c5425807e86da0214fe3e819a754d587a5c04349289085a244efd8a38350",
+    "client/main.lua": "aa12a2519f2d7143f1fa39c25658ba0c005ffce50f7435ccf8c635327810e193",
+    "client/native_routes.lua": "745d39fdc69cedb54a8b9c8bfb2b5de863d5ed44bc9d2f84bba2620ded17d5a2",
+    "client/placement.lua": "7093c8d7c5c68f0fe009c43199f74d5a5c17bea3f522168cef1c8f0e98525cfe",
+    "client/placing.lua": "157b756731882401c8b2ae75b56bf99a9dedc57756816f4e9828325128b095df",
+    "client/presentation.lua": "3d04e0e7ad0b8b3745d0970b2c53ea067f9b0e1d9a9c3216c6e581db292d71fb",
+    "client/remote_held.lua": "ba6f2ad326a6eb7c14f9d4cbc7c0299cd80bbe94349956c8d5df14f8b1306417",
+    "client/traffic_lite.lua": "baa0f381569d5fa04d9b04a5cfcf632332c1c421a10e16f2110cb061cf86c447",
+    "client/world_flares.lua": "41e1a862a7cd59ad761503255f7034b76a13b62f5870f640db9ea5242fd9bbfa",
+    "config.lua": "a8422048e18ada95f82430684699503e3271a84be5082966aad46a975d56e34b",
+    "docs/release-1.0.17/AUDITORIA.md": "5166b0982930f773d208d7a75d2c57e15e2510235e175c04dd34a8319d2c45d7",
+    "docs/release-1.0.17/VALIDATION.md": "cd795a4beb14628796365dfb4448e17ff4f1ef377c78535e178e497084ea0de4",
+    "fxmanifest.lua": "bf825f7aab97c8d3fdfec8a34a2e5e7ac26e4d3cd80d75a342d984c8b68a51a3",
+    "images/roadflare.png": "1004f57da43dd102508fe3313a322ad605442d0bff16441e16a826931c04c990",
+    "install/server.cfg.example": "6c498f3856c01b784f266a8925140ac62fa55acab3851dc761c7ae66e95b2140",
+    "locales/en.lua": "53468877560b52b3854070f56eda66250d05b8e6c1eec49e265d729a1c68aa3e",
+    "locales/es.lua": "932905e83cf66649c01df08af0325efb1078bc36218b87760a8ed377152a944e",
+    "server/held.lua": "35c5a1cdf138b1451d95a6c77923e4fb7e93c1bc0a94768ec7619e8d2150cb9c",
+    "server/inventory.lua": "4d3c799330afb8891bfbbc6011d3a26261c3051db389f95dd9c8284a4e3ffdd9",
+    "server/lifecycle.lua": "a24fc061f264d37632c04597ec8ddb02fb8dc77af42de639b463d12d84077bcd",
+    "server/main.lua": "5781e067b01ee61d7341d6b738f87908655598f4e7277085b09ba8b65b0f36c0",
+    "server/permissions.lua": "35b10cdad02affd46c18d9cd418cb0a76e6f814acddc7a252f50d99e75b036e3",
+    "server/registry.lua": "9cc6a80f346570205d00befc09e4916c596952f47200a7562f1d149748939362",
+    "server/validation.lua": "dcfc605a9b395ebaf5179d6722a72c6d1e93f09e51cbeee75e76a07e5de6e17e",
+    "shared/constants.lua": "a536e75887cc22f7d9854ceca216d453a65f0239f7e474b2b7b517276be7d915",
+    "shared/realism.lua": "e4c30cbd880f6f47f4a649cd1b96cc080355ff17d94753e1af92a18b9ec22528",
+    "shared/utils.lua": "cc31790aac49c2bd7b1d33afaada2cef3dcb94e137ca5e2e5c54090f962e83c9",
+    "textures/combustion.png": "639835b324a4477b696301ddcb34037656db398a53b56ed2327f588dd33d7bb4",
+    "textures/glow.png": "7f4571a4dfe35b858a3aca19d48ac0964e6d2b61a9b824dd1e3fb48205a5f7cd",
+    "textures/smoke.png": "14df0610e9280447c49c9d103e1a5167456c4f615f38b865405492a86820864a",
+    "web/audio.js": "dffac5da5a8e875183f357396d4c5a47d279236f9fd0c78da7f9c038fa6173ce",
+    "web/audio/combustion.wav": "d972a06b5e8888d542863c13ad4ee36f364b3e5fa1bef7ea811da517df827931",
+    "web/audio/strike.wav": "c49d3f01cc5aa19f45a89e9f1933bc9de414f808781b19b329bfa027c34a29ad",
+    "web/audio/tap.wav": "2d41585c6826e8a430302aad68f36777cba565e4a09065c3a5c03000c71d7f39",
+    "web/index.html": "a7522191e945ad7505f1470a429026cc56903cd5ead4ac26ea689eb3da77e5d8",
+    "web/presentation.js": "ee16d6b72406f909445e21f9ca8a84793a2f5c46b950faaa08def116262400d7"
+  }
+}

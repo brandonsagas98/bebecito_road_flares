@@ -1,0 +1,7 @@
+# Add AFTER your existing framework and inventory startup lines.
+# Añadir DESPUÉS de las líneas de inicio del framework e inventario existentes.
+# Do not duplicate the framework/inventory setup. OneSync must be enabled.
+# No duplicar el inicio del framework/inventario. OneSync debe estar activo.
+ensure bebecito_road_flares
+# bd_road_flare_assets starts automatically as a dependency.
+# bd_road_flare_assets se inicia automáticamente como dependencia.
